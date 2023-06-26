@@ -1,3 +1,5 @@
+import './style.css'
+
 type Props = {
   text: string;
   color: 'violet' | 'red' | 'blue';

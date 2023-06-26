@@ -1,0 +1,27 @@
+.box {
+  background: rgb(189, 189, 189);
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+.box--violet {
+  background: rgb(255, 170, 255);
+}
+.box--violet:hover {
+  background: rgb(255, 117, 255);
+}
+.box--red {
+  background: rgb(255, 174, 174);
+}
+.box--red:hover {
+  background: rgb(255, 134, 134);
+}
+.box--blue {
+  background: rgb(161, 161, 255);
+}
+.box--blue:hover {
+  background: rgb(136, 136, 254);
+}
